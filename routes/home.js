@@ -6,7 +6,7 @@ var Config          = require('../config.json');
 var ElasticSearch   = require('elasticsearch');
 
 // Shared Core
-var Core                        = require('sites-node-common');
+var Core                        = require('mynews-common');
 
 // Models
 var Article                     = Core.Models.Article;

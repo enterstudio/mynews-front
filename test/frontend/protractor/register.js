@@ -1,5 +1,5 @@
 var Config          = require('../../../config.json');
-var Core            = require('../../../node_modules/sites-node-common');
+var Core            = require('../../../node_modules/mynews-common');
 var crypto          = require('crypto');
 var RID             = require('../../../utils/rid');
 

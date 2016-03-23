@@ -40,9 +40,9 @@ angular.module('MyNewsApp.Directives', []);
 angular.module('MyNewsApp.Services', []);
 angular.module('MyNewsApp.Models', []);
 angular.module('MyNewsApp.Filters', []);
-// Required when importing angular models from sites-node-common
+// Required when importing angular models from mynews-common
 angular.module('CommonModels', []);
-// Required when importing angular services from sites-node-common
+// Required when importing angular services from mynews-common
 angular.module('CommonServices', []);
 
 

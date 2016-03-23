@@ -13,7 +13,7 @@ var Redis       = require('redis');
 var Kue         = require('kue');
 
 // Shared Core
-var Core        = require('sites-node-common');
+var Core        = require('mynews-common');
 
 // Models
 var User        = Core.Models.User;

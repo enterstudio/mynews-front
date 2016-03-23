@@ -6,7 +6,7 @@
 
 var fs                          = require('fs');
 var Config                      = require('../config.json');
-var Core                        = require('sites-node-common');
+var Core                        = require('mynews-common');
 
 // --
 // Stored Stuff

@@ -6,7 +6,7 @@
 var async                       = require('async');
 var Config                      = require('../config.json');
 var Util                        = require('util');
-var Core                        = require('sites-node-common');
+var Core                        = require('mynews-common');
 
 // Models
 var User                        = Core.Models.User;

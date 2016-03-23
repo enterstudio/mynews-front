@@ -1,7 +1,7 @@
 MyNews.com Web Server
 ========
 
-This is the MyNews.com web server.  It relies heavily on [sites-node-common](https://github.com/ruben-verhagen/mynews-node-common).  The app currently
+This is the MyNews.com web server.  It relies heavily on [mynews-common](https://github.com/ruben-verhagen/mynews-common).  The app currently
 does not use Node.js's Cluster, and as such is designed to have a number of it's processes spawned at any given time.
 
 Stack

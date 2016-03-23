@@ -23,7 +23,7 @@ var AdminFeedsSystem            = require('./routes/admin/feeds');
 var ImageUploaderRouter         = require('./routes/image_uploader');
 var AdminUsersManageRouter      = require('./routes/admin/users');
 // Shared Core
-var Core                        = require('sites-node-common');
+var Core                        = require('mynews-common');
 
 // Models
 var User                        = Core.Models.User;

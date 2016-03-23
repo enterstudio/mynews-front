@@ -31,7 +31,7 @@ module.exports = function(grunt) {
         clean : {
             common : {
                 src : [
-                    "node_modules/sites-node-common"
+                    "node_modules/mynews-common"
                 ]
             }
         },
