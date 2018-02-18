@@ -64,6 +64,6 @@
     "should": "3.3.0",
     "time": "0.8.3",
     "underscore": "1.6.0",
-    "validator": "3.2.1"
+    "validator": "9.4.1"
   }
 }
