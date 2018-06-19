@@ -11,7 +11,9 @@
     "test": "karma start test/frontend/karma.conf.js  --single-run",
     "update-webdriver": "webdriver-manager update",
     "protractor": "protractor test/frontend/protractor-conf.js",
-    "test-single-run": "karma start test/frontend/karma.conf.js  --single-run"
+    "test-single-run": "karma start test/frontend/karma.conf.js  --single-run",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "0.1.22",
@@ -64,6 +66,8 @@
     "should": "3.3.0",
     "time": "0.8.3",
     "underscore": "1.6.0",
-    "validator": "3.2.1"
-  }
+    "validator": "3.2.1",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
