@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - phantomjs > request > hawk > hoek:
+        patched: '2019-04-06T22:19:42.012Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > hoek:
+        patched: '2019-04-06T22:19:42.012Z'
+    - phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-06T22:19:42.012Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > boom > hoek:
+        patched: '2019-04-06T22:19:42.012Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > sntp > hoek:
+        patched: '2019-04-06T22:19:42.012Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-06T22:19:42.012Z'
+    - phantomjs > request > hawk > sntp > hoek:
+        patched: '2019-04-06T22:19:42.012Z'
+    - phantomjs > request > hawk > boom > hoek:
+        patched: '2019-04-06T22:19:42.012Z'
+  'npm:mime:20170907':
+    - karma > connect > send > mime:
+        patched: '2019-04-06T22:19:42.012Z'
+    - bower > bower-registry-client > request > mime:
+        patched: '2019-04-06T22:19:42.012Z'
+    - grunt-contrib-connect > connect > send > mime:
+        patched: '2019-04-06T22:19:42.012Z'
+    - bower > insight > request > mime:
+        patched: '2019-04-06T22:19:42.012Z'
+  'npm:negotiator:20160616':
+    - grunt-contrib-connect > connect > negotiator:
+        patched: '2019-04-06T22:19:42.012Z'
+    - karma > connect > negotiator:
+        patched: '2019-04-06T22:19:42.012Z'
+  'npm:qs:20140806-1':
+    - grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2019-04-06T22:19:42.012Z'
+  'npm:request:20160119':
+    - phantomjs > request:
+        patched: '2019-04-06T22:19:42.012Z'
+    - karma-phantomjs-launcher > phantomjs > request:
+        patched: '2019-04-06T22:19:42.012Z'
+  'npm:tough-cookie:20170905':
+    - phantomjs > request > tough-cookie:
+        patched: '2019-04-06T22:19:42.012Z'
+    - karma-phantomjs-launcher > phantomjs > request > tough-cookie:
+        patched: '2019-04-06T22:19:42.012Z'
+  'npm:tunnel-agent:20170305':
+    - phantomjs > request > tunnel-agent:
+        patched: '2019-04-06T22:19:42.012Z'
+    - karma-phantomjs-launcher > phantomjs > request > tunnel-agent:
+        patched: '2019-04-06T22:19:42.012Z'
+  'npm:uglify-js:20151024':
+    - kue > jade > constantinople > uglify-js:
+        patched: '2019-04-06T22:19:42.012Z'
+    - kue > jade > transformers > uglify-js:
+        patched: '2019-04-06T22:19:42.012Z'
+  'npm:ws:20160920':
+    - karma > socket.io > socket.io-client > ws:
+        patched: '2019-04-06T22:19:42.012Z'
