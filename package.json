@@ -22,7 +22,7 @@
     "ejs": "0.8.3",
     "elasticsearch": "~2.2.0",
     "express": "3.4.0",
-    "grunt": "0.4.4",
+    "grunt": "1.0.0",
     "grunt-cli": "0.1.13",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-concat": "0.3.0",
