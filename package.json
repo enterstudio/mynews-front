@@ -60,7 +60,7 @@
     "protractor": "1.2.0",
     "redis": "0.10.0",
     "request": "~2.34.0",
-    "requirejs": "~2.1.11",
+    "requirejs": "~2.3.7",
     "should": "3.3.0",
     "time": "0.8.3",
     "underscore": "1.6.0",
